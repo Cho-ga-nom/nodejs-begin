@@ -1,0 +1,2 @@
+nodejs 자동 재실행: pm2 start 파일명 --watch --no-daemon
+파일 작업 시 자동 재실행 방지: pm2 start 파일명 --watch --ignore-watch="data/*" --no-daemon
